@@ -6,16 +6,16 @@ on:
       - main
       - develop
       - release
-      - feature/*
-      - hotfix/*
+      - feature*
+      - hotfix*
       - infra/runner-toevoegen
   pull_request:
     branches:
       - main
       - release
       - develop
-      - feature/*
-      - hotfix/*
+      - feature*
+      - hotfix*
  
 jobs:
   test:
